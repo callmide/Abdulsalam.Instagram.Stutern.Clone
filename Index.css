@@ -1,0 +1,103 @@
+*
+*::before
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.Dashboard{
+    border: 1px solid rgb(56, 55, 55);
+    /* border-bottom: none;
+    border-top: none;
+    border-left: none; */
+    display: block;
+    align-content: left;
+    width: 20%;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.Dashboard ul li{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dashboard ul li img{
+    width: 80px;
+}
+
+.Logo{
+    width: 32%;
+}
+.Logo img{
+    width: 100%;
+}
+
+.more{
+    width: 32%;
+}
+.more img{
+    width: 32%;
+}
+
+.stories-feed{
+    display: block;
+    width: 40%;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+
+.stories-feed ul {
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.stories-feed ul li{
+    display: block;
+    width: 68px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.stories-feed ul li img{
+    width: 64px;
+    border: 3px solid red;
+    border-radius: 100%;
+}
+
+.feed{
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.feed div img{
+    width: 60%;
+}
+
+.profile{
+    width: 24px;
+    height: 24px;
+}
+
+.Left{
+    width: 20%;
+    border: 1px solid green;
+}
